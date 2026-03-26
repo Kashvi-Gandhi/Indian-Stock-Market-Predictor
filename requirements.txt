@@ -7,3 +7,4 @@ scikit-learn
 tensorflow
 streamlit
 jupyter
+protobuf==3.20.3
