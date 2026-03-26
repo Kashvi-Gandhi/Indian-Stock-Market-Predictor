@@ -10,6 +10,9 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
+import matplotlib
+matplotlib.use('Agg') # This forces matplotlib to run without a GUI
+import matplotlib.pyplot as plt
 
 # ==========================================
 # 1. Setup the Page Layout
