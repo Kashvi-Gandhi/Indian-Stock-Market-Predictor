@@ -557,7 +557,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import os
 import requests
-from nsepython import nse_quote_meta
+from nsepython import *
 from datetime import datetime
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
